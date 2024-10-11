@@ -1,0 +1,2457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c2089054190f4842942b1e0fc5208b5, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  levels:
+  - levelNumber: 1
+    targetGoal: 10
+    moveLimit: 5
+    starsGoals: 0100000003000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 3}
+      radius: 1.4
+    - bubbleType: 1
+      bubbleNumber: 7
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 3, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 4, y: 6}
+      radius: 1
+    obstacles:
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 4
+      obstacleType: 3
+      direction: 0
+    - position: {x: 3, y: 6}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 10
+      time: 15
+      value: 4
+      obstacleType: 4
+      direction: 0
+  - levelNumber: 2
+    targetGoal: 20
+    moveLimit: 6
+    starsGoals: 0200000004000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 2, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 1, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 8
+      position: {x: 4, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 6
+      position: {x: 3, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 1, y: 5}
+      radius: 1
+    obstacles:
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 0
+      obstacleType: 0
+      direction: 0
+  - levelNumber: 3
+    targetGoal: 30
+    moveLimit: 9
+    starsGoals: 0400000006000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 8
+      position: {x: 4, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 9
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 14
+      position: {x: 6, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 8
+      position: {x: 3, y: 9}
+      radius: 1
+    obstacles:
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 10
+      obstacleType: 3
+      direction: 0
+  - levelNumber: 4
+    targetGoal: 40
+    moveLimit: 10
+    starsGoals: 0400000007000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 5, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 17
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 14
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 5, y: 2}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 21
+      position: {x: 5, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 11
+      position: {x: 1, y: 2}
+      radius: 1
+    obstacles:
+    - position: {x: 1, y: 1}
+      targetPosition: {x: 3, y: 3}
+      speed: 0.5
+      radius: 0
+      time: 0
+      value: 0
+      obstacleType: 1
+      direction: 0
+  - levelNumber: 5
+    targetGoal: 50
+    moveLimit: 12
+    starsGoals: 0500000008000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 24
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -9
+      position: {x: 2, y: 6}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 35
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 22
+      position: {x: 1, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 19
+      position: {x: 1, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -15
+      position: {x: 2, y: 4}
+      radius: 1
+    obstacles: []
+  - levelNumber: 6
+    targetGoal: 60
+    moveLimit: 15
+    starsGoals: 060000000b000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 2, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 31
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 21
+      position: {x: 2, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -14
+      position: {x: 2, y: 1}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -22
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 19
+      position: {x: 3, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 18
+      position: {x: 3, y: 7}
+      radius: 1
+    obstacles:
+    - position: {x: 1, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 9
+      value: 0
+      obstacleType: 5
+      direction: 4
+  - levelNumber: 7
+    targetGoal: 70
+    moveLimit: 18
+    starsGoals: 070000000d000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -14
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -14
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 34
+      position: {x: 4, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 21
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 15
+      position: {x: 1, y: 1}
+      radius: 1
+    obstacles:
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 0
+      obstacleType: 0
+      direction: 0
+    - position: {x: 4, y: 5}
+      targetPosition: {x: 2, y: 3}
+      speed: 0.5
+      radius: 0
+      time: 0
+      value: 0
+      obstacleType: 1
+      direction: 0
+    - position: {x: 4, y: 8}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 7
+      time: 0
+      value: -2
+      obstacleType: 2
+      direction: 0
+    - position: {x: 1, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 9
+      value: 0
+      obstacleType: 5
+      direction: 4
+    - position: {x: 1, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 5
+      time: 0
+      value: 4
+      obstacleType: 2
+      direction: 0
+  - levelNumber: 8
+    targetGoal: 80
+    moveLimit: 18
+    starsGoals: 080000000e000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 2, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -44
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -21
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 53
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 35
+      position: {x: 5, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 13
+      position: {x: 4, y: 2}
+      radius: 1
+    obstacles:
+    - position: {x: 1, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 5
+      value: 0
+      obstacleType: 5
+      direction: 4
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 0
+      obstacleType: 0
+      direction: 0
+  - levelNumber: 9
+    targetGoal: 90
+    moveLimit: 20
+    starsGoals: 090000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -31
+      position: {x: 4, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -43
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -54
+      position: {x: 3, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -22
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 19
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 35
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 48
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 56
+      position: {x: 4, y: 5}
+      radius: 1
+    obstacles:
+    - position: {x: 1, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 5
+      value: 0
+      obstacleType: 5
+      direction: 4
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 0
+      obstacleType: 0
+      direction: 0
+  - levelNumber: 10
+    targetGoal: 100
+    moveLimit: 18
+    starsGoals: 060000000c000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -51
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -35
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -27
+      position: {x: 5, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 50
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 41
+      position: {x: 2, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 34
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 36
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 23
+      position: {x: 4, y: 2}
+      radius: 1
+    obstacles:
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 35
+      obstacleType: 3
+      direction: 0
+  - levelNumber: 11
+    targetGoal: 110
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -32
+      position: {x: 1, y: 5}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 54
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -29
+      position: {x: 4, y: 6}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -46
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 48
+      position: {x: 4, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 27
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -20
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 51
+      position: {x: 2, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -61
+      position: {x: 4, y: 8}
+      radius: 1
+    obstacles: []
+  - levelNumber: 12
+    targetGoal: 120
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 5, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -25
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -34
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -47
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 63
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 72
+      position: {x: 5, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 51
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 37
+      position: {x: 1, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -55
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 46
+      position: {x: 2, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -84
+      position: {x: 5, y: 7}
+      radius: 1
+    obstacles: []
+  - levelNumber: 13
+    targetGoal: 130
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 55
+      position: {x: 3, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -46
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -57
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -34
+      position: {x: 2, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 77
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 21
+      position: {x: 2, y: 6}
+      radius: 1
+    obstacles: []
+  - levelNumber: 14
+    targetGoal: 140
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -35
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -62
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -74
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 49
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 93
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 34
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -58
+      position: {x: 5, y: 8}
+      radius: 1
+    obstacles: []
+  - levelNumber: 15
+    targetGoal: 150
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -52
+      position: {x: 4, y: 9}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 49
+      position: {x: 1, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -95
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 85
+      position: {x: 2, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 32
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -23
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -12
+      position: {x: 1, y: 8}
+      radius: 1
+    obstacles: []
+  - levelNumber: 16
+    targetGoal: 160
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -84
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 63
+      position: {x: 2, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 99
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -73
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -42
+      position: {x: 3, y: 8}
+      radius: 1
+    obstacles: []
+  - levelNumber: 17
+    targetGoal: 170
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -63
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -92
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -64
+      position: {x: 5, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 81
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 65
+      position: {x: 5, y: 9}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 33
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 77
+      position: {x: 4, y: 9}
+      radius: 1
+    obstacles: []
+  - levelNumber: 18
+    targetGoal: 180
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 5, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 111
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 45
+      position: {x: 5, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 62
+      position: {x: 1, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -34
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -26
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -41
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -14
+      position: {x: 3, y: 3}
+      radius: 1
+    obstacles: []
+  - levelNumber: 19
+    targetGoal: 190
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -92
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -81
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 122
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 85
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 70
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -45
+      position: {x: 4, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -32
+      position: {x: 2, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 39
+      position: {x: 5, y: 6}
+      radius: 1
+    obstacles: []
+  - levelNumber: 20
+    targetGoal: 200
+    moveLimit: 20
+    starsGoals: 070000000f000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 5}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 92
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -109
+      position: {x: 2, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 55
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -43
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 48
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 69
+      position: {x: 1, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -25
+      position: {x: 1, y: 9}
+      radius: 1
+    obstacles: []
+  - levelNumber: 21
+    targetGoal: 210
+    moveLimit: 120
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 2, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 6}
+      radius: 1
+    obstacles: []
+  - levelNumber: 22
+    targetGoal: 220
+    moveLimit: 125
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 2, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 4, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 4}
+      radius: 1
+    obstacles: []
+  - levelNumber: 23
+    targetGoal: 230
+    moveLimit: 130
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 5, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 7}
+      radius: 1
+    obstacles: []
+  - levelNumber: 24
+    targetGoal: 240
+    moveLimit: 135
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 5, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 4, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 3, y: 8}
+      radius: 1
+    obstacles: []
+  - levelNumber: 25
+    targetGoal: 250
+    moveLimit: 140
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 5}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 4, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 5, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 5, y: 10}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 6}
+      radius: 1
+    obstacles: []
+  - levelNumber: 26
+    targetGoal: 260
+    moveLimit: 145
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 2, y: 10}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 5, y: 4}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 4, y: 9}
+      radius: 1
+    obstacles: []
+  - levelNumber: 27
+    targetGoal: 270
+    moveLimit: 150
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 5}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 1, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 1, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 1, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 1, y: 9}
+      radius: 1
+    obstacles: []
+  - levelNumber: 28
+    targetGoal: 280
+    moveLimit: 155
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 1, y: 5}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 7}
+      radius: 1
+    obstacles: []
+  - levelNumber: 29
+    targetGoal: 290
+    moveLimit: 160
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 1, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 2, y: 2}
+      radius: 1
+    obstacles:
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 4
+      obstacleType: 6
+      direction: 0
+  - levelNumber: 30
+    targetGoal: 300
+    moveLimit: 165
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 2, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 2, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 1, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 1, y: 6}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 1, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 3, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 3}
+      radius: 1
+    obstacles:
+    - position: {x: 2, y: 3}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 4
+      obstacleType: 7
+      direction: 0
+  - levelNumber: 31
+    targetGoal: 310
+    moveLimit: 170
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 6, y: 6}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 3, y: 4}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 6, y: 10}
+      radius: 1
+    obstacles:
+    - position: {x: 1, y: 1}
+      targetPosition: {x: 0, y: 0}
+      speed: 0
+      radius: 0
+      time: 0
+      value: 4
+      obstacleType: 8
+      direction: 0
+  - levelNumber: 32
+    targetGoal: 320
+    moveLimit: 175
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 4, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 2, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 2, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 1, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 3, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 4, y: 2}
+      radius: 1
+    obstacles: []
+  - levelNumber: 33
+    targetGoal: 330
+    moveLimit: 180
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 1, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 4, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 9}
+      radius: 1
+    obstacles: []
+  - levelNumber: 34
+    targetGoal: 340
+    moveLimit: 185
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 1, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 2, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 4, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 5}
+      radius: 1
+    obstacles: []
+  - levelNumber: 35
+    targetGoal: 350
+    moveLimit: 190
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 5, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 4, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 4, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 2, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 5, y: 7}
+      radius: 1
+    obstacles: []
+  - levelNumber: 36
+    targetGoal: 360
+    moveLimit: 195
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 5, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 5, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 2, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 2, y: 10}
+      radius: 1
+    obstacles: []
+  - levelNumber: 37
+    targetGoal: 370
+    moveLimit: 200
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 3, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 2, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 3, y: 8}
+      radius: 1
+    obstacles: []
+  - levelNumber: 38
+    targetGoal: 380
+    moveLimit: 205
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 2, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 1, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 2, y: 6}
+      radius: 1
+    obstacles: []
+  - levelNumber: 39
+    targetGoal: 390
+    moveLimit: 210
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 2, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 2, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 5, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 3, y: 2}
+      radius: 1
+    obstacles: []
+  - levelNumber: 40
+    targetGoal: 400
+    moveLimit: 215
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 1, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 5, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 2, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 5, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 1, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 4, y: 5}
+      radius: 1
+    obstacles: []
+  - levelNumber: 41
+    targetGoal: 410
+    moveLimit: 220
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 5, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 4, y: 10}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 6}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 1, y: 6}
+      radius: 1
+    obstacles: []
+  - levelNumber: 42
+    targetGoal: 420
+    moveLimit: 225
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 2, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 1, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 2, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 3, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 9}
+      radius: 1
+    obstacles: []
+  - levelNumber: 43
+    targetGoal: 430
+    moveLimit: 230
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 1, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 1, y: 5}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 2, y: 9}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 5}
+      radius: 1
+    obstacles: []
+  - levelNumber: 44
+    targetGoal: 440
+    moveLimit: 235
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 5, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 2, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 2, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 3, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 2, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 3, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 1, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 3, y: 2}
+      radius: 1
+    obstacles: []
+  - levelNumber: 45
+    targetGoal: 450
+    moveLimit: 240
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 5, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 1, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 2, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 5, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 2, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 1, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 1, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 4, y: 10}
+      radius: 1
+    obstacles: []
+  - levelNumber: 46
+    targetGoal: 460
+    moveLimit: 245
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 2}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 4, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 2, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 5, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 7}
+      radius: 1
+    obstacles: []
+  - levelNumber: 47
+    targetGoal: 470
+    moveLimit: 250
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 1, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 2, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 2, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 2, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 5, y: 7}
+      radius: 1
+    obstacles: []
+  - levelNumber: 48
+    targetGoal: 480
+    moveLimit: 255
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 2, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 1, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 2, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 3, y: 9}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 5, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 3
+      position: {x: 2, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 5, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 4, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 3, y: 2}
+      radius: 1
+    obstacles: []
+  - levelNumber: 49
+    targetGoal: 490
+    moveLimit: 260
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 2, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 3, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -2
+      position: {x: 4, y: 1}
+      radius: 2
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 4, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 2}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 3, y: 8}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 5, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 1, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 5
+      position: {x: 1, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 4, y: 10}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -4
+      position: {x: 5, y: 5}
+      radius: 1
+    obstacles: []
+  - levelNumber: 50
+    targetGoal: 500
+    moveLimit: 265
+    starsGoals: 050000000a000000
+    starsAchieved: 0
+    bubblesData:
+    - bubbleType: 0
+      bubbleNumber: 0
+      position: {x: 3, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 5, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 4
+      position: {x: 3, y: 3}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 1, y: 1}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 2
+      position: {x: 3, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -3
+      position: {x: 4, y: 7}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: 1
+      position: {x: 4, y: 6}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 4, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 5}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -1
+      position: {x: 5, y: 4}
+      radius: 1
+    - bubbleType: 1
+      bubbleNumber: -5
+      position: {x: 1, y: 6}
+      radius: 2
+    obstacles: []

@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: a2ecc97a11145cb4dbf7e95a82ab86cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 3634
+        width: 435
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa24b84b2843b7a4fb39cbcd00e32053
+      internalID: -1598278893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 3634
+        width: 435
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f952f85a1d368f4298b8475bcadb8ad
+      internalID: -1419540792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_2
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 3634
+        width: 435
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a156d4f04ed99742a9125b05a2849e1
+      internalID: 1374395135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_3
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 3634
+        width: 435
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27912ee792ead6742a8b1e92b5a72bf3
+      internalID: -658612038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_4
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 3634
+        width: 435
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0597985d56c50bd47af3d6df1f11599a
+      internalID: 400087343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_5
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 3634
+        width: 435
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d9ba3c6fe072489bd81ed9b98494e
+      internalID: -4148205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_6
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 3634
+        width: 435
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f4d1374bc31fb4483558b58e8cdab3
+      internalID: 1625223886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_7
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 3636
+        width: 439
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6067034a9cc43ce45a981332c4184e1c
+      internalID: -1036312662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3120
+        width: 435
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f2271de3a574c48879087035fc3a9d
+      internalID: 2110353350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_9
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 3119
+        width: 435
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddb5e52cbb58d54eb3edacee70d9d3c
+      internalID: -1594161348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_10
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 3119
+        width: 435
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99066640976714248b5dc267ca6b793a
+      internalID: -5096824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_11
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 3119
+        width: 436
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3781e66de97d86541a79d1af155a7112
+      internalID: 954900309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_12
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 3119
+        width: 436
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a78b802e27d57a47a07156d2bd0ec27
+      internalID: -1146190644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_13
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 3119
+        width: 436
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97a922d1c22e754ea102c677856f1d5
+      internalID: -1509474122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_14
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 3119
+        width: 437
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84985c13658fe1d40b4752e8ac99206a
+      internalID: 1418464148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_15
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 3122
+        width: 439
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cbb0f3aea8d7d4c9972dfba1de6f3b
+      internalID: -968784149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2605
+        width: 437
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f329e500bad5bb141958b14f9ece7ab2
+      internalID: 1028028668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2605
+        width: 438
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37f6906b52df28439aa1c74eaf0df32
+      internalID: 900171697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_18
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2605
+        width: 438
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d20a8bde11c00346a5ffd17ec9be012
+      internalID: -345462038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_19
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 2605
+        width: 438
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110ee01c7eb914b41b3dbd0dbf5a14e2
+      internalID: 608948636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_20
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2605
+        width: 439
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f122d868e912aea468d83c7a331c4c10
+      internalID: -134357552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_21
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 2605
+        width: 439
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007e6f4ba918f77478d6bd3744137e19
+      internalID: 1809096085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_22
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 2605
+        width: 439
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9868e5ff4ea7d5b4b969c20712a066de
+      internalID: 1164273839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_23
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 2608
+        width: 439
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2397b9196f905844a85bfd950bff4089
+      internalID: 1678379710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2091
+        width: 439
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db90b53ebc4b5c4fb4e42ff092b66a9
+      internalID: 281268690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_25
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2091
+        width: 440
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc7fa735675d7f46b1108885de3fecf
+      internalID: 1942167188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_26
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2090
+        width: 439
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781cfe809970e81458e3a28add800024
+      internalID: 495427214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_27
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 2089
+        width: 439
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea818b940b09bb64195fe16c526ab2d0
+      internalID: 2001853462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_28
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2089
+        width: 439
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac5d28f6980f1847bbb8432369bc4b6
+      internalID: -1621861257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_29
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 2089
+        width: 439
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fcac5157c284246bd7a1a7752fdae3
+      internalID: -1176935938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_30
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 2089
+        width: 439
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75e5e86ab535794fbe4e54326c045fe
+      internalID: -1357900614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_31
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 2093
+        width: 439
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c31e66c750707a4d910189aabe3f5c4
+      internalID: -1425901183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1575
+        width: 440
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8bdbf903abed943910f9aabac8c3cc
+      internalID: 1138222729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_33
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1575
+        width: 440
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f86e371bfa124549986b36dcf0b2706
+      internalID: -483834589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_34
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1575
+        width: 440
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0f2475f860ae8499343f7ca1f7343b
+      internalID: -44759365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_35
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1575
+        width: 441
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120a413fe9b969a4c8734614ddf91b33
+      internalID: 198784002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_36
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1575
+        width: 441
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a8be0d7eb75bd47bef247a6dec183e
+      internalID: -678208486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_37
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 1575
+        width: 441
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004fd97a6cbf8764a860104ab3bb3913
+      internalID: 907425679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_38
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 1575
+        width: 441
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c4e6278ff718d42adc9aaa1dd3c8ac
+      internalID: -1351436502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_39
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 1579
+        width: 436
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b382592caa834ce42b8929baf69dd563
+      internalID: 2036843624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1061
+        width: 441
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df88ba21fae80d8458ad8bf440475c13
+      internalID: 748101179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_41
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1061
+        width: 441
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c8dc7ba7faf94a9435dfc3468db4d
+      internalID: 1183957353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_42
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1063
+        width: 443
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec5c252aa97e834ab59d939f20859a5
+      internalID: 1478027856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_43
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1063
+        width: 443
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1143d432e82164f8d1687de54274cf
+      internalID: 55118574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_44
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1064
+        width: 443
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2327a9f2adf86c2499a441df01b36c02
+      internalID: 808386917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_45
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 1064
+        width: 443
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f546428878f464295ddcdc93387328
+      internalID: -849572027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_46
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 1065
+        width: 443
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8411f145c9c14ea49bb6f5d69285b1ea
+      internalID: -1304108080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_47
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 1065
+        width: 436
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad279413fff2804c8a1815d7190bd66
+      internalID: -2082759621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_48
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 551
+        width: 443
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b8383628dcb5a41ac78487eca0bde0
+      internalID: 2009072710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_49
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 551
+        width: 443
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4f974560edead498618bc8b6abb283
+      internalID: 451629332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_50
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 551
+        width: 440
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b5fff273a4866498eb9d0a996a14fc
+      internalID: 351888546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_51
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 551
+        width: 440
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1cf445fd2c0b74fb01c968f4144d21
+      internalID: -1268411232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_52
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 552
+        width: 440
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c061eb9af7887243a472e40d090907f
+      internalID: 984514885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_53
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 552
+        width: 439
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3245759e228b54c9630d6f2fcd2a14
+      internalID: -636129101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_54
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 552
+        width: 439
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24d9614c194f5240902a9a0c9717158
+      internalID: -1927226671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_55
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 550
+        width: 436
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6f40dcf229f5849ba5173fa1f80c76
+      internalID: 1917632769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_56
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 36
+        width: 435
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ed757f966f2342ab32f5669fe3cd6
+      internalID: -873370725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_57
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 36
+        width: 435
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c2222869898f5429cc8bec583bbc37
+      internalID: 2110275565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_58
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 36
+        width: 435
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937a3fb31b041c3498a6e6a800e6689c
+      internalID: -691558807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Magnetic VFX_59
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 36
+        width: 436
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b6b05dff268e04da06eddfa6700b0b
+      internalID: 469044260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bubble Magnetic VFX_0: -1598278893
+      Bubble Magnetic VFX_1: -1419540792
+      Bubble Magnetic VFX_10: -5096824
+      Bubble Magnetic VFX_11: 954900309
+      Bubble Magnetic VFX_12: -1146190644
+      Bubble Magnetic VFX_13: -1509474122
+      Bubble Magnetic VFX_14: 1418464148
+      Bubble Magnetic VFX_15: -968784149
+      Bubble Magnetic VFX_16: 1028028668
+      Bubble Magnetic VFX_17: 900171697
+      Bubble Magnetic VFX_18: -345462038
+      Bubble Magnetic VFX_19: 608948636
+      Bubble Magnetic VFX_2: 1374395135
+      Bubble Magnetic VFX_20: -134357552
+      Bubble Magnetic VFX_21: 1809096085
+      Bubble Magnetic VFX_22: 1164273839
+      Bubble Magnetic VFX_23: 1678379710
+      Bubble Magnetic VFX_24: 281268690
+      Bubble Magnetic VFX_25: 1942167188
+      Bubble Magnetic VFX_26: 495427214
+      Bubble Magnetic VFX_27: 2001853462
+      Bubble Magnetic VFX_28: -1621861257
+      Bubble Magnetic VFX_29: -1176935938
+      Bubble Magnetic VFX_3: -658612038
+      Bubble Magnetic VFX_30: -1357900614
+      Bubble Magnetic VFX_31: -1425901183
+      Bubble Magnetic VFX_32: 1138222729
+      Bubble Magnetic VFX_33: -483834589
+      Bubble Magnetic VFX_34: -44759365
+      Bubble Magnetic VFX_35: 198784002
+      Bubble Magnetic VFX_36: -678208486
+      Bubble Magnetic VFX_37: 907425679
+      Bubble Magnetic VFX_38: -1351436502
+      Bubble Magnetic VFX_39: 2036843624
+      Bubble Magnetic VFX_4: 400087343
+      Bubble Magnetic VFX_40: 748101179
+      Bubble Magnetic VFX_41: 1183957353
+      Bubble Magnetic VFX_42: 1478027856
+      Bubble Magnetic VFX_43: 55118574
+      Bubble Magnetic VFX_44: 808386917
+      Bubble Magnetic VFX_45: -849572027
+      Bubble Magnetic VFX_46: -1304108080
+      Bubble Magnetic VFX_47: -2082759621
+      Bubble Magnetic VFX_48: 2009072710
+      Bubble Magnetic VFX_49: 451629332
+      Bubble Magnetic VFX_5: -4148205
+      Bubble Magnetic VFX_50: 351888546
+      Bubble Magnetic VFX_51: -1268411232
+      Bubble Magnetic VFX_52: 984514885
+      Bubble Magnetic VFX_53: -636129101
+      Bubble Magnetic VFX_54: -1927226671
+      Bubble Magnetic VFX_55: 1917632769
+      Bubble Magnetic VFX_56: -873370725
+      Bubble Magnetic VFX_57: 2110275565
+      Bubble Magnetic VFX_58: -691558807
+      Bubble Magnetic VFX_59: 469044260
+      Bubble Magnetic VFX_6: 1625223886
+      Bubble Magnetic VFX_7: -1036312662
+      Bubble Magnetic VFX_8: 2110353350
+      Bubble Magnetic VFX_9: -1594161348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

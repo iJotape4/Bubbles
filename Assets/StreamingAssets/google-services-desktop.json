@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "816927655233",
+    "project_id": "bubbles-fc84b",
+    "storage_bucket": "bubbles-fc84b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816927655233:android:a5cd56c431663e849b8dc0",
+        "android_client_info": {
+          "package_name": "com.workinggame.bubbles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816927655233-acu0sr5nen8947mdv8fm3bhra8h7p717.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZwq8pIVZXNiaJ9UJ3iL_J7GT9QKVhCR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816927655233-acu0sr5nen8947mdv8fm3bhra8h7p717.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "816927655233-nsp0latajoqm6i9jd0t6l76ostsbr7pn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.workinggame.bubbles"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

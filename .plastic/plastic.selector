@@ -1,0 +1,4 @@
+repository "Bubbles@abacigil_wgs@cloud"
+  path "/"
+    smartbranch "/main" changeset "207"                            
+     
